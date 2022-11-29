@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="774796dd-d99c-4c07-b36e-f9d99fc88856" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Database/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mail/Mail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database/DatabaseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/DatabaseAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/TimeSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/TimeSettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Validation/DateValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Validation/TimeSettingsValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Validation/MailSettingsValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Validation/MailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Validation/MailValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Validation/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Validation/Validator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +77,7 @@
       <workItem from="1669548705014" duration="262000" />
       <workItem from="1669716306298" duration="315000" />
       <workItem from="1669748430018" duration="139000" />
-      <workItem from="1669749145201" duration="925000" />
+      <workItem from="1669749145201" duration="4934000" />
     </task>
     <servers />
   </component>

@@ -13,8 +13,8 @@ public class TimeSettings {
     private User user;
 
     private Date sendingTime;
-    private DateFormat period;
-    private DateFormat actuality;
+    private Date period;
+    private Date actuality;
 
     public User getUser() {
         return user;
@@ -32,19 +32,19 @@ public class TimeSettings {
         this.sendingTime = sendingTime;
     }
 
-    public DateFormat getPeriod() {
+    public Date getPeriod() {
         return period;
     }
 
-    public void setPeriod(DateFormat period) {
+    public void setPeriod(Date period) {
         this.period = period;
     }
 
-    public DateFormat getActuality() {
+    public Date getActuality() {
         return actuality;
     }
 
-    public void setActuality(DateFormat actuality) {
+    public void setActuality(Date actuality) {
         this.actuality = actuality;
     }
 }
