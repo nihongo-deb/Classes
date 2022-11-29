@@ -16,80 +16,45 @@ import java.util.List;
  * @project Classes
  * @created 27.11.2022
  */
-public class DatabaseAdapter {
-    public boolean registerNewUser(User user){
-        return false;
+public class DatabaseAdapter implements Database{
+
+    @Override
+    public Object get(int id) {
+        return null;
     }
-    public boolean authorisation(User user){
+
+    @Override
+    public List<Object> getAll(Class c) {
+        return null;
+    }
+
+    @Override
+    public boolean put(Object entity) {
         return false;
     }
 
-    public DatabaseSource getDatabaseSource(User user){
-        return new DatabaseSource();
-    }
-
-    public List<FileSource> getFileSource(User user){
-        return new ArrayList<>();
-    }
-    public boolean addFileSource(FileSource fileSource){
-        return false;
-    }
-    public boolean removeFileSource(FileSource fileSource){
-        return false;
-    }
-    public boolean updateFileSource(FileSource fileSource){
+    @Override
+    public boolean putList(List<Object> listOfEntities) {
         return false;
     }
 
-    public List<MailBody> getMailBodiesByUser(User user){
-        return new ArrayList<>();
-    }
-    public boolean addMailBody(MailBody mailBody){
-        return false;
-    }
-    public boolean removeMailBody(MailBody mailBody){
-        return false;
-    }
-    public boolean updateMailBody(MailBody mailBody){
+    @Override
+    public boolean update(Object entity) {
         return false;
     }
 
-    public List<MailBody> getMailSubjectsByUser(User user){
-        return new ArrayList<>();
-    }
-    public boolean addMailSubject(MailSubject mailSubject){
-        return false;
-    }
-    public boolean removeMailSubject(MailSubject mailSubject){
-        return false;
-    }
-    public boolean updateMailSubject(MailSubject mailSubject){
+    @Override
+    public boolean updateList(List<Object> listOfEntities) {
         return false;
     }
 
-    public List<Recipient> getRecipients(User user){
-        return new ArrayList<>();
-    }
-    public boolean addRecipient(Recipient recipient){
-        return false;
-    }
-    public boolean removeRecipient(Recipient recipient){
-        return false;
-    }
-    public boolean updateRecipient(Recipient recipient){
+    @Override
+    public boolean delete(Object entity) {
         return false;
     }
 
-    public List<TimeSettings> getTimeSettings(User user){
-        return new ArrayList<>();
-    }
-    public boolean addTimeSettings(TimeSettings timeSettings){
-        return false;
-    }
-    public boolean removeTimeSettings(TimeSettings timeSettings){
-        return false;
-    }
-    public boolean updateTimeSettings(TimeSettings timeSettings){
+    @Override
+    public boolean deleteList(List<Object> listOfEntities) {
         return false;
     }
 }
