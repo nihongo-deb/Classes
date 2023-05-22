@@ -6,6 +6,8 @@ package Mail;
  * @created 27.11.2022
  */
 public class MailMessage {
+    private long mail_massage_id;
+
     private MailBody mailBody;
     private MailSubject mailSubject;
 

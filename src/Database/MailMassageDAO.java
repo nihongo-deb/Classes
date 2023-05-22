@@ -1,25 +1,20 @@
 package Database;
 
-import DataSource.DatabaseSource;
-import DataSource.FileSource;
-import Mail.MailBody;
-import Mail.MailSubject;
-import Mail.Recipient;
-import User.User;
-import User.TimeSettings;
-
-import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author KAWAIISHY
  * @project Classes
- * @created 27.11.2022
+ * @created 15.02.2023
  */
-public class DatabaseAdapter implements Database{
+public class MailMassageDAO implements DAO {
+    @Override
+    public Object get(long id) {
+        return null;
+    }
 
     @Override
-    public Object get(int id) {
+    public Object get(Object obj) {
         return null;
     }
 

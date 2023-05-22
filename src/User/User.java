@@ -2,7 +2,7 @@ package User;
 
 import DataSource.DatabaseSource;
 import DataSource.FileSource;
-import Mail.Mail;
+import Mail.SendingMail;
 import Mail.Recipient;
 
 import java.util.List;
@@ -13,12 +13,11 @@ import java.util.List;
  * @created 27.11.2022
  */
 public class User {
-    private long id;
+    private long user_id;
     private String login;
-    private String passwordHash;
+    private char[] passwordHash;
     private String name;
     private String surname;
-    private Mail mail;
     private String position;
 
     private Sender senderSettings;
@@ -27,6 +26,7 @@ public class User {
     private List<DatabaseSource> databaseSources;
     private List<FileSource> fileSources;
     private List<Recipient> recipients;
+    private List<SendingMail> mails;
 
     public Sender getSenderSettings() {
         return senderSettings;
@@ -68,11 +68,11 @@ public class User {
         this.recipients = recipients;
     }
 
-    public Mail getMail() {
-        return mail;
+    public List<SendingMail> getMail() {
+        return mails;
     }
 
-    public void setMail(Mail mail) {
-        this.mail = mail;
+    public void setMail(List<SendingMail> mails) {
+        this.mails = mails;
     }
 }

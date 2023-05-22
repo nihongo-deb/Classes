@@ -5,14 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="774796dd-d99c-4c07-b36e-f9d99fc88856" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Mail/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Database/AdminDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Database/FileSourceDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Database/MailBodyDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Database/MailDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Database/MailMassageDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Database/MailRecipientDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Database/MailSubjectDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mail/SendingMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Securuty/Authorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Securuty/HashGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Securuty/Registration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/User/Admin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataSource/DatabaseSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataSource/DatabaseSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataSource/DatabaseTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataSource/DatabaseTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataSource/FileSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataSource/FileSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database/DatabaseAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mail/Mail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mail/MailBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mail/MailBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mail/MailMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mail/MailMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mail/MailSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mail/MailSubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mail/Recipient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mail/Recipient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/User/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/Sender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/User/TimeSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/TimeSettings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/User/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Validation/DateValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Validation/TimeSettingsValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Validation/MailSettingsValidator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Validation/MailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Validation/MailValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Validation/TimeSettingsValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Validation/TimeSettingsValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Validation/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Validation/Validator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,32 +60,21 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/KAWAIISHY/Desktop",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Projects/Multithreading programming/lab_1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,7 +87,16 @@
       <workItem from="1669548705014" duration="262000" />
       <workItem from="1669716306298" duration="315000" />
       <workItem from="1669748430018" duration="139000" />
-      <workItem from="1669749145201" duration="4934000" />
+      <workItem from="1669749145201" duration="6186000" />
+      <workItem from="1669787383081" duration="2553000" />
+      <workItem from="1669984434365" duration="760000" />
+      <workItem from="1676372246127" duration="260000" />
+      <workItem from="1676436430092" duration="4492000" />
+      <workItem from="1676446202854" duration="1319000" />
+      <workItem from="1676447559773" duration="7803000" />
+      <workItem from="1676482166316" duration="168000" />
+      <workItem from="1681224042768" duration="1682000" />
+      <workItem from="1684573973346" duration="2320000" />
     </task>
     <servers />
   </component>
@@ -94,5 +113,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

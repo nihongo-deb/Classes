@@ -6,7 +6,7 @@ package Mail;
  * @created 27.11.2022
  */
 public class MailBody {
-    private long id;
+    private long mail_body_id;
 
     private String mailBody;
 

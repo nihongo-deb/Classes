@@ -7,8 +7,9 @@ import java.util.List;
  * @project Classes
  * @created 30.11.2022
  */
-public interface Database {
-    Object get(int id);
+public interface DAO {
+    Object get(long id);
+    Object get(Object obj);
     List<Object> getAll(Class c);
 
     boolean put(Object entity);

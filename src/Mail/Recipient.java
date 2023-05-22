@@ -10,10 +10,11 @@ import java.util.List;
  * @created 27.11.2022
  */
 public class Recipient {
-    private long id;
+    private long recipient_id;
 
     private List<User> users;
     private String mail;
+    private String [] fio;
 
     public List<User> getUsers() {
         return users;

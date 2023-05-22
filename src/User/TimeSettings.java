@@ -9,7 +9,7 @@ import java.util.Date;
  * @created 27.11.2022
  */
 public class TimeSettings {
-    private long id;
+    private long time_settings_id;
     private User user;
 
     private Date sendingTime;

@@ -1,6 +1,7 @@
 package Validation;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -15,7 +16,7 @@ public class MailValidator implements Validator<String, String>{
     }
 
     @Override
-    public boolean validate(Map<String, String> validatingPatterns, Map<String, String> validatedParams) {
+    public boolean validate(Map<String, String> validatingPatterns, List<String> validatedParams) {
         return false;
     }
 }

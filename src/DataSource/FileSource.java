@@ -8,7 +8,7 @@ import java.io.File;
  * @created 27.11.2022
  */
 public class FileSource {
-    private long id;
+    private long file_souse_id;
 
     private File file;
 
@@ -18,5 +18,9 @@ public class FileSource {
 
     public void setFile(File file) {
         this.file = file;
+    }
+
+    public void parse(){
+
     }
 }
